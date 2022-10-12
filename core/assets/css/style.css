@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;500;600;700&display=swap');
 
 
-:root{
+:root {
     --color-body: #b6cbce;
     --color-heading: #eef3db;
     --color-base: #033f47;
@@ -18,9 +18,14 @@ body {
     font-family: var(--font-base), sans-serif;
 
 }
- 
 
-h1, h2, h3,h4, h5, h6{
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     color: var(--color-heading);
     font-weight: 700;
 }
@@ -28,35 +33,35 @@ h1, h2, h3,h4, h5, h6{
 a {
     text-decoration: none;
     color: var(--color-body);
-    transition:all 0.4s ease;
+    transition: all 0.4s ease;
 }
 
-a:hover{
+a:hover {
     color: var(--color-brand);
 
 }
 
-img{
-    width:100%;
+img {
+    width: 100%;
 }
 
 
-.navbar .nav-link{
+.navbar .nav-link {
     font-weight: 700;
-    text-transform: uppercase; 
+    text-transform: uppercase;
     color: #fff;
 
 }
 
-.navbar .nav-link:hover{
+.navbar .nav-link:hover {
     background-color: var(--color-brand)
 }
 
 @media (min-width: 992px) {
-    .navbar{
+    .navbar {
         min-height: 100vh;
         width: var(--sidbar-width);
-        background: linear-gradient(rgba(3, 63, 71, 0.9),rgba(3, 63, 71, 0.9)), url(../images/sidebar-img.jpeg);
+        background: linear-gradient(rgba(3, 63, 71, 0.9), rgba(3, 63, 71, 0.9)), url(../images/sidebar-img.jpeg);
         background-size: cover;
         background-position: center;
     }
